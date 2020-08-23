@@ -28,7 +28,7 @@ body {
 .articles-cantainer {
   display: flex;
   width: 300px;
-  overflow: hidden;
+  overflow: auto;
 }
 article {
   width: 300px;
@@ -119,8 +119,9 @@ article {
     align-items: unset;
   }
   .articles-cantainer {
-    width: fit-content;
+    width: 1315px;
     overflow: hidden;
+    display: -webkit-box;
   }
   article {
     width: 1315px;
