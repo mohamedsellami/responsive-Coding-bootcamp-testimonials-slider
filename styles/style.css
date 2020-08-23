@@ -19,7 +19,7 @@ body {
   background-size: contain;
   height: 100vh;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -149,10 +149,9 @@ article .testimonial .trainee-info p .job {
             align-items: unset;
   }
   .articles-cantainer {
-    width: -webkit-fit-content;
-    width: -moz-fit-content;
-    width: fit-content;
+    width: 1315px;
     overflow: hidden;
+    display: -webkit-box;
   }
   article {
     width: 1315px;
